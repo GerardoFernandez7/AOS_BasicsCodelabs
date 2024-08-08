@@ -36,7 +36,7 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.codelab.basics.ui.theme.BasicsCodelabTheme
+import com.gerardo_fdez.basicscodelab.ui.theme.BasicsCodelabTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -154,7 +154,6 @@ private fun CardContent(name: String) {
         }
     }
 }
-
 
 @Preview(showBackground = true, widthDp = 320, heightDp = 320)
 @Composable

@@ -56,7 +56,7 @@ fun BasicsCodelabTheme(
 
     MaterialTheme(
         colorScheme = colorScheme,
-        typography = kotlin.text.Typography,
+        typography = Typography,
         content = content
     )
 }
